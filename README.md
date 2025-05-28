@@ -33,6 +33,8 @@ Place the saved cookies in the cookies folder of script.
 
 # Installation
 
+FOR LINUX
+
 1) Click 'Code' button at `https://github.com/nik0mi/SoundCloud-Likes-Downloader` and download the ZIP onto your Desktop.
 
 2) Extract the zip on desktop.
@@ -50,3 +52,10 @@ Place the saved cookies in the cookies folder of script.
 8) In the prompt type `pip install -r requirements.txt`
 
 9) Run the script by typing `python main.py <soundcloud_user_name_here>`
+
+FOR WINDOWS
+
+none
+
+because I'm too lazy to write.
+`the installation process is unlikely to be much different`
