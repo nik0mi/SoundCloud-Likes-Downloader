@@ -1,4 +1,3 @@
-#! /main/venv2/bin/python3
 import os
 import argparse
 import yt_dlp
@@ -31,7 +30,12 @@ def download_soundcloud_likes():
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download([url])
 
-USERNAME = input("Enter soundcloud username: ")
-print(f"Starting download of {USERNAME}'s liked tracks")
-download_soundcloud_likes()
-print("\nDownload completed!")
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        logger.error("You must enter your SoundCloud username (EX: 'python main.py username')")
+    else:
+        USERNAME = sys.argv[1]
+        
+        print(f"Starting download of {USERNAME}'s liked tracks")
+        download_soundcloud_likes()
+        print("\nDownload completed!")
