@@ -1,7 +1,8 @@
 # SoundCloud Likes Downloader
 
 Not the fastest downloader of liked songs.
-<!-- There are probably better ways to download all the songs, so I do NOT recommend this script. -->
+
+*There are probably better ways to download all the songs without using cookies, so I do <ins>NOT</ins> recommend this script.*
 
 # Usage
 
