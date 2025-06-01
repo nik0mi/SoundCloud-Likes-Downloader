@@ -1,10 +1,11 @@
 import os
 import argparse
 import yt_dlp
+import sys
 
 USERNAME = ""
 COOKIES_DIR = "cookies/cookies.txt"
-OUTPUT_DIR = "songs"
+OUTPUT_DIR = "../songs"
 
 def download_soundcloud_likes():
     url = f"https://soundcloud.com/{USERNAME}/likes"
@@ -24,7 +25,7 @@ def download_soundcloud_likes():
         'ignoreerrors': True,
         'concurrent_fragment_downloads': 5,
         'windowsfilenames': True,
-        'verbose': False
+        'verbose': False,
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:

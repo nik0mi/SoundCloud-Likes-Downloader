@@ -1,0 +1,17 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.soundcloud.com	TRUE	/	TRUE	1780331815	datadome	vcrQU~Gf780iS4jt5TeRjOup50tcS07zIHRCV7QCQCvEl1XseclZdlEN1I3SDHXd5Nmaca0c_~W4bXEO8sYnsdEFJhFaULNWZrHsSFU7tqZ25H7tnif4kc0qqXfWNE9b
+.soundcloud.com	TRUE	/	FALSE	1782885988	sc_theme	dark
+.soundcloud.com	TRUE	/	TRUE	1780331806	OptanonConsent	isGpcEnabled=0&datestamp=Sun+Jun+01+2025+23%3A36%3A46+GMT%2B0700+(GMT%2B07%3A00)&version=202502.1.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=f31e00a2-c43f-4256-b351-5febc883327d&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A0%2CC0004%3A0%2CC0002%3A0%2CV2STACK42%3A0&iType=2&intType=2&geolocation=FI%3B18&AwaitingReconsent=false
+.soundcloud.com	TRUE	/	TRUE	1779861991	OptanonAlertBoxClosed	2025-05-27T06:06:31.646Z
+.soundcloud.com	TRUE	/	TRUE	1779861991	eupubconsent-v2	CQSDiygQSDiygAcABBENBsFgAAAAAEPgAAYgAAAWeABMNCogjLIgBCJQMIIEACgrCAigQBAAAkDRAQAmDApyBgAusJEAIAUAAwQAgABBgACAAASABCIAKACgQAAQCBQABgAQDAQAMDAAGACwEAgABAdAxTAggECwASMyKDTAlAASCAlsqEEgCBBXCEIs8AggREwUAAAIABQAAIDwWAxJICViQQBcQTQAAEAAAUQIECKTswBBQGbLUXgyfRlaYBg-YJmlMAyAIgjIyTYhN-0w8chRCAAA.YAAACHwAAAAA
+soundcloud.com	FALSE	/	TRUE	1779862319	oauth_token	2-304094-1106968408-nO1NwRUEv1wdj
+.soundcloud.com	TRUE	/	FALSE	1751387804	ja	0
+soundcloud.com	FALSE	/	TRUE	1780331811	extole_access_token	EVU5AOPFAHUAV4DJ7MJMLNHQ2N
+.soundcloud.com	TRUE	/	FALSE	1783355814	sc_anonymous_id	85816-793696-76536-751097
+.soundcloud.com	TRUE	/	FALSE	1780331821	sc_tracking_anonymous_id	%22697c1d23-3d0b-4897-9850-2e6ed37f16d2%22
+.soundcloud.com	TRUE	/	FALSE	1780331815	sc_tracking_user_id	%22soundcloud%3Ausers%3A1106968408%22
+.soundcloud.com	TRUE	/	TRUE	0	connect_session	1
+.soundcloud.com	TRUE	/	TRUE	0	soundcloud_session_hint	1
