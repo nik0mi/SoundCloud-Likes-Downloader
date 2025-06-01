@@ -1,7 +1,7 @@
 import os
-import argparse
-import yt_dlp
 import sys
+import glob
+import yt_dlp
 
 USERNAME = ""
 COOKIES_DIR = "cookies/cookies.txt"
@@ -14,14 +14,27 @@ def download_soundcloud_likes():
         'cookiefile': COOKIES_DIR,
         'format': 'bestaudio/best',
         'outtmpl': os.path.join(OUTPUT_DIR, '%(title)s.%(ext)s'),
-        'postprocessors': [{
-            'key': 'FFmpegExtractAudio',
-            'preferredcodec': 'mp3',
-            'preferredquality': '320',
-        }],
+        'writethumbnail': True,
+        'postprocessors': [
+            {
+                'key': 'FFmpegExtractAudio',
+                'preferredcodec': 'mp3',
+                'preferredquality': '320',
+            },
+
+            {
+                'key': 'FFmpegMetadata',
+                'add_metadata': True,
+            },
+
+            {
+                'key': 'EmbedThumbnail',
+                'already_have_thumbnail': True,
+            }
+        ],
         'retries': 10,
-        'sleep_interval': 5,
-        'max_sleep_interval': 15,
+        'sleep_interval': 1,
+        'max_sleep_interval': 3,
         'ignoreerrors': True,
         'concurrent_fragment_downloads': 5,
         'windowsfilenames': True,
@@ -30,6 +43,14 @@ def download_soundcloud_likes():
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download([url])
+        cleanup_thumbnails()
+
+def cleanup_thumbnails():
+    image_extensions = ['*.jpg', '*.jpeg', '*.png', '*.webp']
+    for ext in image_extensions:
+        for file_path in glob.glob(os.path.join(OUTPUT_DIR, ext)):
+                os.remove(file_path)
+
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
