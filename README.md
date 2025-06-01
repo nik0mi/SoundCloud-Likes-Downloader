@@ -9,9 +9,13 @@ Not the fastest downloader of liked songs.
 Put cookies in the cookies folder `(to get cookies you can use the cookie.txt browser extension)`
 
 Make sure dependencies are installed
-Go to the main folder open the console and run 
+Go to the main folder open the console and run:
 ```bash
 python main.py <soundcloud_user_name_here>
+```
+Also if you need to download songs from a certain range you can use:
+```bash
+python main.py <soundcloud_user_name_here> <start_index> <end_index_inclusive>
 ```
 
 The songs will be saved in the songs folder
