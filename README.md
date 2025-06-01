@@ -16,7 +16,7 @@ python main.py <soundcloud_user_name_here>
 
 The songs will be saved in the songs folder
 
-`** after downloading all songs temporary thumbnails will be deleted !!! NO NEED TO DELETE ANYTHING BY HAND !!! **`
+`** after downloading is finished, temporary thumbnails will be deleted automatically **`
 
 # Get Username `(if script not work)`
 
