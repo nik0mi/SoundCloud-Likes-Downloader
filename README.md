@@ -55,6 +55,8 @@ Place the saved cookies in the cookies folder of script.
 
 9) Run the script by typing `python main.py <soundcloud_user_name_here>`
 
+10*) Run `sudo pacman -S ffmpeg` if ffmpeg not installed 
+
 **FOR WINDOWS**
 
 none
