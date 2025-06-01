@@ -16,6 +16,8 @@ python main.py <soundcloud_user_name_here>
 
 The songs will be saved in the songs folder
 
+`** after downloading all songs temporary thumbnails will be deleted !!! NO NEED TO DELETE ANYTHING BY HAND !!! **`
+
 # Get Username `(if script not work)`
 
 Go to your soundcloud profile and copy this part of the url `(this is your username)`
@@ -54,6 +56,8 @@ Place the saved cookies in the cookies folder of script.
 8) In the prompt type `pip install -r requirements.txt`
 
 9) Run the script by typing `python main.py <soundcloud_user_name_here>`
+
+10*) Run `sudo pacman -S ffmpeg` if ffmpeg not installed 
 
 **FOR WINDOWS**
 
